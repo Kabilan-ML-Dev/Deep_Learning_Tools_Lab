@@ -2,7 +2,7 @@ import cv2
 from mtcnn import MTCNN
 from mtcnn.utils.images import load_image
 
-#Creating a Video Capture fe
+#Creating a Video Capture feed
 cap = cv2.VideoCapture(0)
 #Creating a MTCNN detector object
 detector = MTCNN(device="CPU:0")
